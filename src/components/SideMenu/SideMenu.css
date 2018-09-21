@@ -1,0 +1,41 @@
+.container {
+  position: absolute;
+  width: 80%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #ECEFF1;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  z-index: 12;
+  transform: translate(-100%, 0);
+  -webkit-transition-duration: 0.3s !important;
+  -moz-transition-duration: 0.3s !important;
+  transition-duration: 0.3s !important;
+}
+.open .container {
+  -webkit-transform: translate(0%, 0);
+  -ms-transform: translate(0%, 0);
+  transform: translate(0%, 0);
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 11;
+  pointer-events: none;
+  -webkit-transition-duration: 0.3s !important;
+  -moz-transition-duration: 0.3s !important;
+  transition-duration: 0.3s !important;
+}
+.open .overlay {
+  background: rgba(0,0,0,0.3);
+  pointer-events: all;
+}
+@media (min-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}

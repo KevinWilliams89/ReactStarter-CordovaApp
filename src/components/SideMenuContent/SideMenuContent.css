@@ -1,0 +1,52 @@
+.SideMenuContent {
+  font-size: 16px;
+  height: 100%;
+}
+.SideMenuContent .menu-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fafafa;
+  max-height: 225px;
+  border-bottom: 2px solid #ebebeb;
+}
+.SideMenuContent .menu-top img {
+  align-self: flex-end;
+  width: 50%;
+  padding: 8px;
+}
+.SideMenuContent .user-detail {
+  padding: 12px;
+  font-size: 0.9em;
+  color: grey;
+  word-wrap: break-word;
+}
+.SideMenuContent .user-detail label {
+  font-weight: bold;
+}
+.SideMenuContent .fa {
+  font-size: 21px;
+  color: #172b4d;
+  padding: 0px 20px;
+}
+.SideMenuContent .flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.SideMenuContent .menu-item {
+  display: flex;
+  width: 100%;
+  padding: 12px 0px;
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+}
+.SideMenuContent .menu-item:nth-of-type(1) {
+  margin-top: 20px;
+}
+.SideMenuContent .app-version {
+  bottom: 0;
+  position: absolute;
+  margin: 12px;
+}

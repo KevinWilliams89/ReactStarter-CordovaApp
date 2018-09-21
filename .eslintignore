@@ -1,0 +1,7 @@
+build/
+public/
+res/
+src/registerServiceWorker.js
+www/
+platforms/
+plugins/
